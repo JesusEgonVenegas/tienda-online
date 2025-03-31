@@ -6,6 +6,7 @@ import ordersFocused from "@/assets/icons/orders-focused.png";
 import ordersUnfocused from "@/assets/icons/orders-unfocused.png";
 import profileFocused from "@/assets/icons/profile-focused.png";
 import profileUnfocused from "@/assets/icons/profile-unfocused.png";
+import search from "@/assets/icons/search.png";
 
 export const icons = {
   home: {
@@ -24,4 +25,5 @@ export const icons = {
     focused: profileFocused,
     unfocused: profileUnfocused,
   },
+  search,
 };

@@ -1,0 +1,133 @@
+{
+  "categories": [
+    { "id": 1, "name": "Electronics" },
+    { "id": 2, "name": "Clothing" },
+    { "id": 3, "name": "Home & Kitchen" },
+    { "id": 4, "name": "Books" },
+    { "id": 5, "name": "Toys & Games" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category_id": 1,
+      "price": 99.99,
+      "stock": 25,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "category_id": 1,
+      "price": 699.99,
+      "stock": 10,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Laptop",
+      "category_id": 1,
+      "price": 1299.99,
+      "stock": 5,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "T-Shirt",
+      "category_id": 2,
+      "price": 19.99,
+      "stock": 50,
+      "rating": 4.2
+    },
+    {
+      "id": 5,
+      "name": "Jeans",
+      "category_id": 2,
+      "price": 49.99,
+      "stock": 30,
+      "rating": 4.3
+    },
+    {
+      "id": 6,
+      "name": "Blender",
+      "category_id": 3,
+      "price": 39.99,
+      "stock": 20,
+      "rating": 4.0
+    },
+    {
+      "id": 7,
+      "name": "Cookware Set",
+      "category_id": 3,
+      "price": 89.99,
+      "stock": 15,
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "name": "Fiction Novel",
+      "category_id": 4,
+      "price": 14.99,
+      "stock": 40,
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "name": "Children's Book",
+      "category_id": 4,
+      "price": 9.99,
+      "stock": 60,
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "name": "Board Game",
+      "category_id": 5,
+      "price": 29.99,
+      "stock": 35,
+      "rating": 4.5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "address": "123 Main St, NY"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "address": "456 Oak St, CA"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "address": "789 Pine St, TX"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "items": [
+        { "product_id": 1, "quantity": 1 },
+        { "product_id": 4, "quantity": 2 }
+      ],
+      "total_price": 139.97,
+      "status": "Shipped"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "items": [
+        { "product_id": 3, "quantity": 1 },
+        { "product_id": 6, "quantity": 1 }
+      ],
+      "total_price": 1339.98,
+      "status": "Processing"
+    }
+  ]
+}
