@@ -1,4 +1,5 @@
 import FeaturedCard from "@/components/FeaturedCard";
+import RecommendedCard from "@/components/RecommendedCard";
 import { icons } from "@/constants/icons";
 import { useState } from "react";
 import {
@@ -58,6 +59,21 @@ export default function Index() {
           <FeaturedCard />
           <FeaturedCard />
           <FeaturedCard />
+        </ScrollView>
+      </View>
+
+      <View>
+        <Text>Recommended</Text>
+        <ScrollView horizontal={true} style={styles.scrollView}>
+          <RecommendedCard />
+          <RecommendedCard />
+          <RecommendedCard />
+          <RecommendedCard />
+          <RecommendedCard />
+          <RecommendedCard />
+          <RecommendedCard />
+          <RecommendedCard />
+          <RecommendedCard />
         </ScrollView>
       </View>
     </SafeAreaView>
