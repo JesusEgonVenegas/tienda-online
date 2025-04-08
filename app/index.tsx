@@ -1,15 +1,16 @@
-import { Text, View } from "react-native";
+import Featured from "@/components/Featured";
+import { SafeAreaView, Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View
+    <SafeAreaView
       style={{
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+      <Featured />
+    </SafeAreaView>
   );
 }

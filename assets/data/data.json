@@ -1,0 +1,228 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+    },
+    {
+      "id": 2,
+      "name": "Home & Kitchen",
+      "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092"
+    },
+    {
+      "id": 3,
+      "name": "Sports & Outdoors",
+      "image": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf"
+    },
+    {
+      "id": 4,
+      "name": "Books",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "description": "Over-ear Bluetooth headphones with noise cancellation and long battery life.",
+      "price": 99.99,
+      "stock": 25,
+      "rating": 4.5,
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1657223144998-e5aa4fa2db7c",
+      "features": [
+        "Bluetooth 5.0",
+        "Active noise cancellation",
+        "20-hour battery",
+        "Comfort-fit cushions"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Smart Speaker",
+      "description": "Voice-activated smart speaker with powerful audio and home assistant integration.",
+      "price": 59.99,
+      "stock": 15,
+      "rating": 4.2,
+      "categoryId": 1,
+      "image": "https://images.unsplash.com/photo-1705090212627-004b20f6a0fb",
+      "features": [
+        "Wi-Fi & Bluetooth",
+        "Voice assistant built-in",
+        "Multi-room support",
+        "Compact design"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Blender Pro 900",
+      "description": "Powerful countertop blender for smoothies, sauces, and more.",
+      "price": 49.99,
+      "stock": 40,
+      "rating": 4.6,
+      "categoryId": 2,
+      "image": "https://plus.unsplash.com/premium_photo-1663853294058-3f85f18a4bed",
+      "features": [
+        "900W motor",
+        "Dishwasher-safe",
+        "Multiple speed settings",
+        "Pulse function"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Yoga Mat",
+      "description": "Non-slip, high-density yoga mat perfect for all fitness levels.",
+      "price": 29.99,
+      "stock": 60,
+      "rating": 4.7,
+      "categoryId": 3,
+      "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2",
+      "features": [
+        "Eco-friendly materials",
+        "Extra thick cushioning",
+        "Textured grip",
+        "Lightweight & portable"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mountain Bike",
+      "description": "Durable mountain bike built for off-road adventures.",
+      "price": 349.99,
+      "stock": 8,
+      "rating": 4.8,
+      "categoryId": 3,
+      "image": "https://images.unsplash.com/photo-1629216012338-0e06caae0dff",
+      "features": [
+        "21-speed gear system",
+        "Shock-absorbing suspension",
+        "All-terrain tires",
+        "Lightweight frame"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hardcover Notebook",
+      "description": "Classic hardcover notebook with thick paper and sleek design.",
+      "price": 14.99,
+      "stock": 100,
+      "rating": 4.9,
+      "categoryId": 4,
+      "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e",
+      "features": [
+        "200 lined pages",
+        "Acid-free paper",
+        "Elastic closure",
+        "Bookmark ribbon"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cookware Set",
+      "description": "Complete cookware set made of high-quality stainless steel.",
+      "price": 89.99,
+      "stock": 15,
+      "rating": 4.4,
+      "categoryId": 2,
+      "image": "https://plus.unsplash.com/premium_photo-1664391825760-17aacf4cb3b4",
+      "features": [
+        "Durable stainless steel",
+        "Dishwasher safe",
+        "Even heat distribution",
+        "Ergonomic handles"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Fiction Novel",
+      "description": "A captivating fiction novel that takes you on an unforgettable journey.",
+      "price": 14.99,
+      "stock": 40,
+      "rating": 4.8,
+      "categoryId": 4,
+      "image": "https://images.unsplash.com/photo-1635007129134-814c0b7c777e",
+      "features": [
+        "Paperback edition",
+        "384 pages",
+        "Best seller",
+        "Written by award-winning author"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Children's Book",
+      "description": "An engaging children's book filled with colorful illustrations and fun stories.",
+      "price": 9.99,
+      "stock": 60,
+      "rating": 4.7,
+      "categoryId": 4,
+      "image": "https://images.unsplash.com/photo-1563383238568-c91235c22c6d",
+      "features": [
+        "Hardcover",
+        "32 pages",
+        "Interactive storytelling",
+        "Recommended for ages 3-7"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Board Game",
+      "description": "An exciting board game for family and friends, perfect for game nights.",
+      "price": 29.99,
+      "stock": 35,
+      "rating": 4.5,
+      "categoryId": 5,
+      "image": "https://images.unsplash.com/photo-1585504198199-20277593b94f",
+      "features": [
+        "2-6 players",
+        "Easy to learn",
+        "Hours of fun",
+        "Includes expansion packs"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "address": "123 Main St, NY"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "address": "456 Oak St, CA"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "address": "789 Pine St, TX"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "items": [
+        { "product_id": 1, "quantity": 1 },
+        { "product_id": 4, "quantity": 2 }
+      ],
+      "total_price": 139.97,
+      "status": "Shipped"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "items": [
+        { "product_id": 3, "quantity": 1 },
+        { "product_id": 6, "quantity": 1 }
+      ],
+      "total_price": 1339.98,
+      "status": "Processing"
+    }
+  ]
+}
