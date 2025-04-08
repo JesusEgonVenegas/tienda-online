@@ -1,7 +1,11 @@
 import { Image, StyleSheet, Text, TouchableOpacity } from "react-native";
 import React from "react";
 
-const FeaturedCard = ({ product }: { product: Product }) => {
+interface FeaturedCardProps {
+  product: Product;
+}
+
+const FeaturedCard = ({ product }: FeaturedCardProps) => {
   return (
     <TouchableOpacity style={styles.container}>
       <Image

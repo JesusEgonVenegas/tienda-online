@@ -1,11 +1,8 @@
-import { Image, StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
 import React from "react";
 import { Tabs } from "expo-router";
 import { icons } from "@/constants/icons";
-
-const TabIcon = ({ focused, icon }: { focused: boolean; icon: any }) => {
-  return <Image source={focused ? icon.focused : icon.unfocused} />;
-};
+import TabIcon from "@/components/TabIcon";
 
 const TabLayout = () => {
   return (
