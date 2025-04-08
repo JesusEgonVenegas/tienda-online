@@ -12,11 +12,7 @@ const Featured = () => {
       <Text style={styles.title}>Featured</Text>
       <ScrollView horizontal={true} style={styles.scrollView}>
         {products?.map((product) => (
-          <FeaturedCard
-            title={product.name}
-            image={product.image}
-            key={product.id}
-          />
+          <FeaturedCard product={product} key={product.id} />
         ))}
       </ScrollView>
     </View>
