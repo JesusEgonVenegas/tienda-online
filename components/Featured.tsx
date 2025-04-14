@@ -1,6 +1,6 @@
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import React, { useState } from "react";
-import FeaturedCard from "./FeaturedCard";
+import Card from "./Card";
 import useFetch from "@/services/useFetch";
 import { fetchProducts } from "@/services/api";
 
@@ -12,7 +12,7 @@ const Featured = () => {
       <Text style={styles.title}>Featured</Text>
       <ScrollView horizontal={true} style={styles.scrollView}>
         {products?.map((product) => (
-          <FeaturedCard product={product} key={product.id} />
+          <Card product={product} key={product.id} height={240} width={240} />
         ))}
       </ScrollView>
     </View>
